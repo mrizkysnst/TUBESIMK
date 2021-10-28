@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <div class="container bootstrap snippets bootdey">
+  <div class="title"> <h1>Profil<h1></div>
 <div class="panel-body inf-content">
     <div class="row">
         <div class="col-md-4">
@@ -14,7 +15,6 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <strong>Information</strong><br>
             <div class="table-responsive">
             <table class="table table-user-information">
                 <tbody>
@@ -22,7 +22,7 @@
                         <td>
                             <strong>
                                 <span class="glyphicon glyphicon-asterisk text-primary"></span>
-                                Identificacion
+                                Id
                             </strong>
                         </td>
                         <td class="text-primary">
@@ -33,22 +33,11 @@
                         <td>
                             <strong>
                                 <span class="glyphicon glyphicon-user  text-primary"></span>
-                                Name
+                                Nama
                             </strong>
                         </td>
                         <td class="text-primary">
-                            Bootdey
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <strong>
-                                <span class="glyphicon glyphicon-cloud text-primary"></span>
-                                Lastname
-                            </strong>
-                        </td>
-                        <td class="text-primary">
-                            Bootstrap
+                            Boy
                         </td>
                     </tr>
 
@@ -60,7 +49,7 @@
                             </strong>
                         </td>
                         <td class="text-primary">
-                            bootnipets
+                            boy123
                         </td>
                     </tr>
 
@@ -69,7 +58,7 @@
                         <td>
                             <strong>
                                 <span class="glyphicon glyphicon-eye-open text-primary"></span>
-                                Role
+                                Status
                             </strong>
                         </td>
                         <td class="text-primary">
@@ -90,23 +79,23 @@
                     <tr>
                         <td>
                             <strong>
-                                <span class="glyphicon glyphicon-calendar text-primary"></span>
-                                created
+                                <span class="glyphicon glyphicon-envelope text-primary"></span>
+                                Ponsel
                             </strong>
                         </td>
                         <td class="text-primary">
-                            20 jul 20014
+                            081376965402
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <strong>
-                                <span class="glyphicon glyphicon-calendar text-primary"></span>
-                                Modified
+                                <span class="glyphicon glyphicon-envelope text-primary"></span>
+                                Alamat
                             </strong>
                         </td>
                         <td class="text-primary">
-                             20 jul 20014 20:00:00
+                            Jalan Pelajar No.9, Teladan Timur
                         </td>
                     </tr>
                 </tbody>
@@ -119,7 +108,10 @@
 </html>
 
 <style>
- .inf-content{
+.container {
+  margin-top: 120px;
+}
+.inf-content{
     border:1px solid #DDDDDD;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
