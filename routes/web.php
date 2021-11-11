@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegistrasiController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +28,9 @@ Route::get('/profile', function () {
 Route::get('/profile/edit', function () {
     return view('editprofile');
 });
+
+Route::get('/login', [LoginController::class, 'login']);
+Route::post('/login', [LoginController::class, 'authenticate']);
+
+Route::get('/registrasi', [RegistrasiController::class, 'registrasi']);
+Route::post('/registrasi', [RegistrasiController::class, 'store']);
